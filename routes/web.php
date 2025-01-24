@@ -10,4 +10,4 @@ Route::get('/', function () {
 });
 
 
-Route::Resource('jobs',JobController::class);
+Route::Resource('jobs',JobController::class)->only(['index', 'show']);
