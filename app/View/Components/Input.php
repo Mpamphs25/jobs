@@ -12,7 +12,8 @@ class Input extends Component
         public ?string $type = null,
         public ?string $value = null,
         public ?string $name = null,
-        public ?string $placeholder = null
+        public ?string $placeholder = null,
+        public ?string $formId = null
     ) {
     }
 
