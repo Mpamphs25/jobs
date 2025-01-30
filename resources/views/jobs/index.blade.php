@@ -26,9 +26,7 @@
               </div>
             </div>
             <div class="flex justify-center items-center">
-              <button class="px-4 py-2 bg-black text-white hover:bg-white hover:text-black border border-black transition duration-300 cursor-pointer text-sm rounded">
-                  Filter
-              </button>
+              <x-button class="w-full">Filter</x-button>
             </div>                           
         </form>
           </x-card>
