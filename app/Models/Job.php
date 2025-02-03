@@ -17,9 +17,10 @@ class Job extends Model
 
     public static array $categories = ['IT','Finance','Sales','Marketing'];
 
-    public function user()
+
+    public function employer()
     {
-        return $this->belongsToMany(User::class);
+        return $this->belongsTo(Employer::class);
     }
 
     public function scopeFilterJobsByTitleOrDescription($query,$searchField)
